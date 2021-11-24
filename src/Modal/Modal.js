@@ -16,7 +16,8 @@ export default class Modal extends React.Component {
                         <h1>Список Дел или To Do List</h1>
                         <p>Это "ToDo List", "Список Дел".
                         Здесь вы можете добавлять, вычеркивать завершенные и удалять дела, задачи и пр.
-                        (todoProjectOnReact v1. Litovkin K.) </p>
+                        Here you can add, remove, cross off your "todos".
+                        (todoProjectOnReact v2. Litovkin K.) </p>
                         <button onClick={() => this.setState({ isOpen: false})}>Закрыть окно</button>
                     </div>
                 </div>}
