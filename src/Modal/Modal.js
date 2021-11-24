@@ -14,8 +14,9 @@ export default class Modal extends React.Component {
                 {this.state.isOpen && <div className='modal'>
                     <div className='modal-body'>
                         <h1>Список Дел или To Do List</h1>
-                        <p>Это первый проект который я написал на Reactjs "ToDo List", "Список Дел".
-                        Здесь вы можете добавлять, вычеркивать завершенные и удалять дела, задачи и пр. </p>
+                        <p>Это "ToDo List", "Список Дел".
+                        Здесь вы можете добавлять, вычеркивать завершенные и удалять дела, задачи и пр.
+                        (todoProjectOnReact v1. Litovkin K.) </p>
                         <button onClick={() => this.setState({ isOpen: false})}>Закрыть окно</button>
                     </div>
                 </div>}
